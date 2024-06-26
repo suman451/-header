@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: cursive
+}
+.header{
+    background-color: #065fd4;
+    color: white;
+    padding: 4rem;
+    background-image: url(background.png);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: -160px;
+
+    
+}
+h2{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.header span{
+    font-size: 2rem;
+}
+.header img{
+    width: 5rem;
+    height: 5rem;
+    border: 5px solid;
+    border-radius:100% ;
+    vertical-align: middle;
+    
+
+}
+img + img {
+    margin-left: -1rem;
+}
